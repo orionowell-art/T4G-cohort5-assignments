@@ -15,33 +15,3 @@ Client(Sends the web request) -->DNS(Finds the website's IP address)-->Firewall(
   Q10.Absolute path starts from the root and works it way down. It works no matter where you are. For example /home/mzpee/T4G-cohort5-assignments/answers.txt. While relative path starts from the current folder. For example answers.txt.
   Q11.Using file explorer is fine for basic use, but the command line gives you speed, control, and power, especially in software development. That's what I will tell my friend.
   Q12.The symbol ~ represents the home directory. The symbol $ is not a command, it's just part of the terminal prompt.
-
-
-
-    
-
-    
-
-    
-
-
-    
-
-
-    
-
-
-    
-
-
-    
-
-
-    
-
-
-Web Server
-(Sends the response)
-    -->
-Client
-(Displays the webpage)
