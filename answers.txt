@@ -5,4 +5,43 @@ A firewall acts like a security guard for the website or network. It checks the 
 A web server is responsible for receiving requests from a web browser and delivering website contents such as HTML,CSS and Javascript files.An application server handles the logic behind a website or a web application.A backend developer works more with the application server because that is where most of the application's functionality is built.
 The client does not communicate directly with the database because it would expose important data and make the system less secured.Instead, requests go through the application server, which checks and processes them before accessing the database. The application server improves security, validates requests and ensure users only access the data they are authorized to see. It also helps the system to run more efficiently.
 A university department page such as ug.edu.gh/statistics is more likely to be a static website because it mainly displays information that does not chane often such as courses,staff and contact details. An MTN Momo account page is a dynamic website because it displays personalized information like your account balance and transaction history.The content changes based on the user who logs in.
-Frontend development focuses on what users and interact with, such as layout,colors and the fonts.Backend development focuses on the server,database and application logic that processes requests and manages data behing the scenes.For a login feature, the backend is responsible for checking the password against the database.This is because the database is stored on the server and keeping password verification on the backend protects sensitive information. The frontend only collects the username and password from the user and sends them securely to the backend for verification.
+Frontend development focuses on what users and interact with, such as layout,colors and the fonts.Backend development focuses on the server,database and application logic that processes requests and manages data behind the scenes.For a login feature, the backend is responsible for checking the password against the database.This is because the database is stored on the server and keeping password verification on the backend protects sensitive information. The frontend only collects the username and password from the user and sends them securely to the backend for verification.
+
+PART 2
+Client(Sends the web request) -->DNS(Finds the website's IP address)-->Firewall(Filters unsafe traffic) -->Load Balancer(Shares requests among servers)-->Web Server(Handles the HTTP request)-->Application Server(Runs the application logic)--> Database(Stores and retrieves data)-->Application Server(Processes the returned data)-->Web Server(Sends the response)--> Client(Displays the webpage)
+
+  PART 3
+  Q9.Backend development tasks are done through the command line. It is an important skill for every backend developer because they use it to create and manage files, run programs, install tools, use git to track changes and work with servers.
+  Q10.Absolute path starts from the root and works it way down. It works no matter where you are. For example /home/mzpee/T4G-cohort5-assignments/answers.txt. While relative path starts from the current folder. For example answers.txt.
+  Q11.Using file explorer is fine for basic use, but the command line gives you speed, control, and power, especially in software development. That's what I will tell my friend.
+  Q12.The symbol ~ represents the home directory. The symbol $ is not a command, it's just part of the terminal prompt.
+
+
+
+    
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+Web Server
+(Sends the response)
+    -->
+Client
+(Displays the webpage)
